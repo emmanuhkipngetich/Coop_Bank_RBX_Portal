@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42793" started-at="2021-03-15T13:46:44 EAT" finished-at="2021-03-15T13:47:26 EAT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42793" started-at="2021-03-15T13:46:44 EAT" finished-at="2021-03-15T13:47:26 EAT">
+      <class name="USSD.A_Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:USSD.A_Login@14f0d9c]" name="setUp" is-config="true" duration-ms="6804" started-at="2021-03-15T13:46:44 EAT" finished-at="2021-03-15T13:46:50 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Starting_login_functionalities_Test_cases()[pri:0, instance:USSD.A_Login@14f0d9c]" name="Starting_login_functionalities_Test_cases" duration-ms="1289" started-at="2021-03-15T13:46:51 EAT" finished-at="2021-03-15T13:46:52 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Starting_login_functionalities_Test_cases -->
+        <test-method status="PASS" signature="Check_behavior_of_system_when_user_exhausts_number_of_trials_on_answering_security_questions_if_entered_answers_are_wrong()[pri:1, instance:USSD.A_Login@14f0d9c]" name="Check_behavior_of_system_when_user_exhausts_number_of_trials_on_answering_security_questions_if_entered_answers_are_wrong" duration-ms="24777" started-at="2021-03-15T13:46:53 EAT" finished-at="2021-03-15T13:47:17 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_behavior_of_system_when_user_exhausts_number_of_trials_on_answering_security_questions_if_entered_answers_are_wrong -->
+        <test-method status="PASS" signature="Verify_that_customer_can_access_Omni_service_by_dialing()[pri:2, instance:USSD.A_Login@14f0d9c]" name="Verify_that_customer_can_access_Omni_service_by_dialing" duration-ms="2058" started-at="2021-03-15T13:47:18 EAT" finished-at="2021-03-15T13:47:20 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_customer_can_access_Omni_service_by_dialing -->
+        <test-method status="PASS" signature="Verify_that_an_appropriate_Error_message_is_displayed_when_user_enters_a_wrong_confirmation_PIN()[pri:3, instance:USSD.A_Login@14f0d9c]" name="Verify_that_an_appropriate_Error_message_is_displayed_when_user_enters_a_wrong_confirmation_PIN" duration-ms="573" started-at="2021-03-15T13:47:20 EAT" finished-at="2021-03-15T13:47:20 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_an_appropriate_Error_message_is_displayed_when_user_enters_a_wrong_confirmation_PIN -->
+        <test-method status="PASS" signature="Verify_that_the_application_navigates_to_main_page_with_modules_for_accessing_Mbanking_Services_on_successful_login()[pri:3, instance:USSD.A_Login@14f0d9c]" name="Verify_that_the_application_navigates_to_main_page_with_modules_for_accessing_Mbanking_Services_on_successful_login" duration-ms="895" started-at="2021-03-15T13:47:20 EAT" finished-at="2021-03-15T13:47:21 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_the_application_navigates_to_main_page_with_modules_for_accessing_Mbanking_Services_on_successful_login -->
+        <test-method status="PASS" signature="Verify_that_system_prompts_customer_to_change_pin()[pri:4, instance:USSD.A_Login@14f0d9c]" name="Verify_that_system_prompts_customer_to_change_pin" duration-ms="2088" started-at="2021-03-15T13:47:21 EAT" finished-at="2021-03-15T13:47:23 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_system_prompts_customer_to_change_pin -->
+        <test-method status="PASS" signature="Client_should_not_login_with_invalid_PIN()[pri:5, instance:USSD.A_Login@14f0d9c]" name="Client_should_not_login_with_invalid_PIN" duration-ms="630" started-at="2021-03-15T13:47:23 EAT" finished-at="2021-03-15T13:47:24 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Client_should_not_login_with_invalid_PIN -->
+        <test-method status="PASS" signature="Confirm_that_the_user_is_blocked_on_entering_wrong_password_more_than_3_consecutive_times()[pri:6, instance:USSD.A_Login@14f0d9c]" name="Confirm_that_the_user_is_blocked_on_entering_wrong_password_more_than_3_consecutive_times" duration-ms="1188" started-at="2021-03-15T13:47:24 EAT" finished-at="2021-03-15T13:47:25 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confirm_that_the_user_is_blocked_on_entering_wrong_password_more_than_3_consecutive_times -->
+        <test-method status="PASS" signature="End_of_log_in_functionalities_Test_cases()[pri:7, instance:USSD.A_Login@14f0d9c]" name="End_of_log_in_functionalities_Test_cases" duration-ms="8" started-at="2021-03-15T13:47:25 EAT" finished-at="2021-03-15T13:47:25 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End_of_log_in_functionalities_Test_cases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:USSD.A_Login@14f0d9c]" name="tearDown" is-config="true" duration-ms="1098" started-at="2021-03-15T13:47:25 EAT" finished-at="2021-03-15T13:47:26 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- USSD.A_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
